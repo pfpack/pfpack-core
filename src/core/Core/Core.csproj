@@ -17,7 +17,7 @@
     <Description>PrimeFuncPack Core is a functional programming pack for .NET consisting of the fundamentals: Optional and Result monads, Failure type, Tagged Union, Unit type, and functional interfaces (SAM interfaces), as well as the useful extensions. The Pack supports both asynchronous and synchronous programming models.</Description>
     <RootNamespace>System</RootNamespace>
     <AssemblyName>PrimeFuncPack.Core</AssemblyName>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -32,7 +32,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="PrimeFuncPack.Core.Failure" Version="2.0.0" />
+    <PackageReference Include="PrimeFuncPack.Core.Failure" Version="2.0.1" />
     <PackageReference Include="PrimeFuncPack.Core.Func.Abstractions" Version="2.0.0" />
     <PackageReference Include="PrimeFuncPack.Core.Func.Abstractions.Async" Version="2.0.0" />
     <PackageReference Include="PrimeFuncPack.Core.Func.Abstractions.AsyncValue" Version="2.0.0" />
@@ -41,11 +41,11 @@
     <PackageReference Include="PrimeFuncPack.Core.Func.Extensions.Async" Version="2.0.0" />
     <PackageReference Include="PrimeFuncPack.Core.Func.Extensions.AsyncValue" Version="2.0.0" />
     <PackageReference Include="PrimeFuncPack.Core.Func.Extensions.Sync" Version="2.0.0" />
-    <PackageReference Include="PrimeFuncPack.Core.Optional" Version="2.0.0" />
-    <PackageReference Include="PrimeFuncPack.Core.Result" Version="2.0.0" />
-    <PackageReference Include="PrimeFuncPack.Core.Taggeds" Version="2.0.0" />
-    <PackageReference Include="PrimeFuncPack.Core.TaggedUnion" Version="2.0.0" />
-    <PackageReference Include="PrimeFuncPack.Core.Unit" Version="2.1.1" />
+    <PackageReference Include="PrimeFuncPack.Core.Optional" Version="2.0.1" />
+    <PackageReference Include="PrimeFuncPack.Core.Result" Version="2.0.1" />
+    <PackageReference Include="PrimeFuncPack.Core.Taggeds" Version="2.0.1" />
+    <PackageReference Include="PrimeFuncPack.Core.TaggedUnion" Version="2.0.1" />
+    <PackageReference Include="PrimeFuncPack.Core.Unit" Version="2.1.3" />
   </ItemGroup>
 
 </Project>
